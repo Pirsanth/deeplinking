@@ -9,24 +9,40 @@
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+    h1 {
+    }
+    a {
+      color: "powderblue";
+      font-size: "14px";
+    }
+    .invalid {
+      color: "red"
+    }
+  </style>
 </head>
-
+ 
 <body>
-  <h1>From html</h1>
-  <div>
-    <a href="./carView/1234">Bmw x6</a>
-  </div>
+  <h1>Deep linking html</h1>
   
+  <h3>Used cars</h3>
 
   <div>
-    <a href="myapp://ccar">Myapp</a>
-  </div>
+    <a href="./product-ads/5ef361413694996d1bd21409">Volkswagen Golf</a>
+  </div> 
 
-  
   <div>
-    <a href="./">Stay here</a>
+    <a href="./product-ads/5ef363913694996d1bd21523">Porshe Macan</a>
   </div>
 
-  
+  <div>
+    <a href="./product-ads/5efc73bceb5d346ffddbad48">BMW 2 Series</a>
+  </div>
+    
+  <h3 class="invalid">Invalid Link</h3>
+  <div>
+   <a href="./product-ads//" class="invalid">Broken link</a>
+  </div>
+
 </body>
 </html>
